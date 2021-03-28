@@ -1,11 +1,11 @@
-import theme from "./main";
+import theme from './main';
 
 const lightTheme = {
   ...theme,
-  name: "light-theme",
+  name: 'light-theme',
   palette: {
-    type: "light",
-  },
+    type: 'light'
+  }
 };
 
 export default lightTheme;
