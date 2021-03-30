@@ -2,3 +2,45 @@
 // Border Radius
 //
 $borderRadius: 4px;
+
+//
+// Transitions
+//
+$durationShortest: 150;
+$durationShorter: 200;
+$durationShort: 250;
+$durationStandard: 300;
+$durationComplex: 375;
+$durationEnteringScreen: 225;
+$durationLeavingScreen: 195;
+
+//
+// Z-Index
+//
+$zMobileStepper: 1000;
+$zSpeedDial: 1050;
+$zAppBar: 1100;
+$zDrawer: 1200;
+$zModal: 1300;
+$zSnackbar: 1400;
+$zTooltip: 1500;
+
+:export {
+  borderRadius: $borderRadius;
+
+  durationShortest: $durationShortest;
+  durationShorter: $durationShorter;
+  durationShort: $durationShort;
+  durationStandard: $durationStandard;
+  durationComplex: $durationComplex;
+  durationEnteringScreen: $durationEnteringScreen;
+  durationLeavingScreen: $durationLeavingScreen;
+
+  zMobileStepper: $zMobileStepper;
+  zSpeedDial: $zSpeedDial;
+  zAppBar: $zAppBar;
+  zDrawer: $zDrawer;
+  zModal: $zModal;
+  zSnackbar: $zSnackbar;
+  zTooltip: $zTooltip;
+}

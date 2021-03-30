@@ -3,21 +3,3 @@
 @import './variables/_spacing.scss';
 @import './variables/_typography.scss';
 @import './variables/_breakpoints.scss';
-
-:export {
-  primaryLight: $primaryLight;
-  primaryMain: $primaryMain;
-  primaryDark: $primaryDark;
-  secondaryLight: $secondaryLight;
-  secondaryMain: $secondaryMain;
-  secondaryDark: $secondaryDark;
-  contrastText: $contrastText;
-
-  breakpointXs: $breakpointXs;
-  breakpointSm: $breakpointSm;
-  breakpointMd: $breakpointMd;
-  breakpointLg: $breakpointLg;
-  breakpointXl: $breakpointXl;
-
-  borderRadius: $borderRadius;
-}
