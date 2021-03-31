@@ -1,35 +1,35 @@
-// Replicates the spacing functionality of bootstrap (mt-2, px-sm-5 etc.)
-@mixin spacing() {
-  @each $prop, $abbrev in (margin: m, padding: p) {
-    @each $size, $lengths in $spacers {
-      $length-x: map-get($lengths, x);
-      $length-y: map-get($lengths, y);
+// // Replicates the spacing functionality of bootstrap (mt-2, px-sm-5 etc.)
+// @mixin spacing() {
+//   @each $prop, $abbrev in (margin: m, padding: p) {
+//     @each $size, $lengths in $spacers {
+//       $length-x: map-get($lengths, x);
+//       $length-y: map-get($lengths, y);
 
-      .#{$abbrev}-#{$size} {
-        #{$prop}: $length-y $length-x !important;
-      }
-      .#{$abbrev}t-#{$size} {
-        #{$prop}-top: $length-y !important;
-      }
-      .#{$abbrev}r-#{$size} {
-        #{$prop}-right: $length-x !important;
-      }
-      .#{$abbrev}b-#{$size} {
-        #{$prop}-bottom: $length-y !important;
-      }
-      .#{$abbrev}l-#{$size} {
-        #{$prop}-left: $length-x !important;
-      }
-      .#{$abbrev}x-#{$size} {
-        #{$prop}-left: $length-x !important;
-        #{$prop}-right: $length-x !important;
-      }
-      .#{$abbrev}y-#{$size} {
-        #{$prop}-top: $length-y !important;
-        #{$prop}-bottom: $length-x !important;
-      }
-    }
-  }
-}
+//       .#{$abbrev}-#{$size} {
+//         #{$prop}: $length-y $length-x !important;
+//       }
+//       .#{$abbrev}t-#{$size} {
+//         #{$prop}-top: $length-y !important;
+//       }
+//       .#{$abbrev}r-#{$size} {
+//         #{$prop}-right: $length-x !important;
+//       }
+//       .#{$abbrev}b-#{$size} {
+//         #{$prop}-bottom: $length-y !important;
+//       }
+//       .#{$abbrev}l-#{$size} {
+//         #{$prop}-left: $length-x !important;
+//       }
+//       .#{$abbrev}x-#{$size} {
+//         #{$prop}-left: $length-x !important;
+//         #{$prop}-right: $length-x !important;
+//       }
+//       .#{$abbrev}y-#{$size} {
+//         #{$prop}-top: $length-y !important;
+//         #{$prop}-bottom: $length-x !important;
+//       }
+//     }
+//   }
+// }
 
-@include spacing();
+// @include spacing();

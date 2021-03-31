@@ -9,71 +9,16 @@ $spacer7: calc(#{$spacer} * 8);
 $spacer8: calc(#{$spacer} * 10);
 
 $spacers: (
-  0: (
-    x: 0,
-    y: 0
-  ),
-  1: (
-    x: (
-      $spacer1
-    ),
-    y: (
-      $spacer1
-    )
-  ),
-  2: (
-    x: (
-      $spacer2
-    ),
-    y: (
-      $spacer2
-    )
-  ),
-  3: (
-    x: $spacer3,
-    y: $spacer3
-  ),
-  4: (
-    x: (
-      $spacer4
-    ),
-    y: (
-      $spacer4
-    )
-  ),
-  5: (
-    x: (
-      $spacer5
-    ),
-    y: (
-      $spacer5
-    )
-  ),
-  6: (
-    x: (
-      $spacer6
-    ),
-    y: (
-      $spacer6
-    )
-  ),
-  7: (
-    x: (
-      $spacer7
-    ),
-    y: (
-      $spacer7
-    )
-  ),
-  8: (
-    x: (
-      $spacer8
-    ),
-    y: (
-      $spacer8
-    )
-  )
-);
+  0: 0,
+  1: $spacer1,
+  2: $spacer2,
+  3: $spacer3,
+  4: $spacer4,
+  5: $spacer5,
+  6: $spacer6,
+  7: $spacer7,
+  8: $spacer8
+) !default;
 
 :export {
   spacer: $spacer;

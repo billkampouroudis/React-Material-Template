@@ -3,4 +3,6 @@
 @import './_variables.module.scss';
 @import './_global.scss';
 
-@import './mixins';
+@import './mixins/index.scss';
+
+@import './utils';

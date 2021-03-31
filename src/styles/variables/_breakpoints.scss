@@ -4,6 +4,14 @@ $breakpointMd: 960px;
 $breakpointLg: 1280px;
 $breakpointXl: 1920px;
 
+$grid-breakpoints: (
+  xs: $breakpointXs,
+  sm: $breakpointSm,
+  md: $breakpointMd,
+  lg: $breakpointLg,
+  xl: $breakpointXl
+);
+
 :export {
   breakpointXs: $breakpointXs;
   breakpointSm: $breakpointSm;

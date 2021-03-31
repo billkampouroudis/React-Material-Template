@@ -94,7 +94,6 @@ function App() {
                   variant="contained"
                   color="primary"
                   size="large"
-                  width="100%"
                   onClick={() => setCurrentTheme(darkTheme)}
                 >
                   Dark theme

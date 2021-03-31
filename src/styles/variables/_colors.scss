@@ -28,6 +28,33 @@ $successMain: #4caf50;
 $successDark: #388e3c;
 $successContrastText: rgba(0, 0, 0, 0.87);
 
+$theme-colors: (
+  primaryLight: $primaryLight,
+  primaryMain: $primaryMain,
+  primaryDark: $primaryDark,
+  primaryContrastText: $primaryContrastText,
+  secondaryLight: $secondaryLight,
+  secondaryMain: $secondaryMain,
+  secondaryDark: $secondaryDark,
+  secondaryContrastText: $secondaryContrastText,
+  errorLight: $errorLight,
+  errorMain: $errorMain,
+  errorDark: $errorDark,
+  errorContrastText: $errorContrastText,
+  warningLight: $warningLight,
+  warningMain: $warningMain,
+  warningDark: $warningDark,
+  warningContrastText: $warningContrastText,
+  infoLight: $infoLight,
+  infoMain: $infoMain,
+  infoDark: $infoDark,
+  infoContrastText: $infoContrastText,
+  successLight: $successLight,
+  successMain: $successMain,
+  successDark: $successDark,
+  successContrastText: $successContrastText
+);
+
 :export {
   primaryLight: $primaryLight;
   primaryMain: $primaryMain;
