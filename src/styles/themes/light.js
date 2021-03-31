@@ -3,7 +3,7 @@ import theme from './main';
 const lightTheme = {
   ...theme,
 
-  name: 'light-theme',
+  name: 'lightTheme',
 
   palette: {
     ...theme.palette,

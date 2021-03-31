@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   createMuiTheme,
   ThemeProvider,
@@ -9,14 +9,35 @@ import darkTheme from './styles/themes/dark';
 import { Button, CssBaseline, Paper, Container } from '@material-ui/core';
 
 function App() {
-  const [currentTheme, setCurrentTheme] = useState(
-    responsiveFontSizes(createMuiTheme(lightTheme))
-  );
+  const [currentTheme, setCurrentTheme] = useState();
 
-  return (
+  useEffect(() => {
+    if (currentTheme) {
+      localStorage.setItem('theme', currentTheme.name);
+    }
+  }, [currentTheme]);
+
+  useEffect(() => {
+    const savedThemeName = localStorage.getItem('theme');
+
+    switch (savedThemeName) {
+      case 'lightTheme':
+        setCurrentTheme(lightTheme);
+        break;
+      case 'darkTheme':
+        setCurrentTheme(darkTheme);
+        break;
+      default:
+        setCurrentTheme(lightTheme);
+    }
+  }, []);
+
+  return currentTheme ? (
     <div className={currentTheme.name}>
       <React.StrictMode>
-        <ThemeProvider theme={createMuiTheme(currentTheme)}>
+        <ThemeProvider
+          theme={responsiveFontSizes(createMuiTheme(currentTheme))}
+        >
           <CssBaseline />
 
           <Container className="py-4">
@@ -73,6 +94,7 @@ function App() {
                   variant="contained"
                   color="primary"
                   size="large"
+                  width="100%"
                   onClick={() => setCurrentTheme(darkTheme)}
                 >
                   Dark theme
@@ -83,7 +105,7 @@ function App() {
         </ThemeProvider>
       </React.StrictMode>
     </div>
-  );
+  ) : null;
 }
 
 export default App;

@@ -3,7 +3,7 @@ import theme from './main';
 const darkTheme = {
   ...theme,
 
-  name: 'dark-theme',
+  name: 'darkTheme',
 
   palette: {
     ...theme.palette,
