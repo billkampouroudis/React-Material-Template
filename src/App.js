@@ -43,7 +43,7 @@ function App() {
           <Container className="py-4">
             <Paper>
               <Container className="py-4">
-                <h1 className="mt-0">React template by Bill Kampouroudis</h1>
+                <h1 className="mt-0">React Material UI Template</h1>
 
                 <p className="mt-0">
                   This template was created using{' '}

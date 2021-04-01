@@ -1,3 +1,16 @@
+# Material Ui Template
+
+This is a tempate that uses [React Material UI library](https://material-ui.com/).
+
+## What it offers
+
+This template offers a large amount of scss variables for the different theme elements like colors, spaces, font sizes etc.
+Since Material UI uses mainly javascript for the styling, those scss variables are exported and used inside javascript to compose the final theme.
+
+Additionally, there was absence of some important utilities that other libraries offer. To solve this, some of the most used [Bootstrap](https://getbootstrap.com/) utilities (sizing, spacing, text etc.) was added and can be used the same way as someone would do while using Bootstrap.
+
+Finally, in order to keep the code clean and consistent in the hole project, eslint and prettier was set up.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
