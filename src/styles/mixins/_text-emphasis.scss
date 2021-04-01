@@ -1,0 +1,16 @@
+// stylelint-disable declaration-no-important
+
+// Typography
+
+@mixin text-emphasis-variant($parent, $color, $ignore-warning: false) {
+  #{$parent} {
+    color: $color !important;
+  }
+  @if 15% != 0 {
+    a#{$parent} {
+      @include hover-focus() {
+        color: darken($color, 15%) !important;
+      }
+    }
+  }
+}

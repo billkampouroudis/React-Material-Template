@@ -1,0 +1,181 @@
+$headerFontFamily: 'Open Sans', ' Helvetica ', ' Arial ', sans-serif;
+$bodyFontFamily: 'Open Sans', ' Helvetica ', ' Arial ', sans-serif;
+
+$fontWeightLight: 300;
+$fontWeightNormal: 400;
+$fontWeightBold: 600;
+$fontWeightBolder: 700;
+
+$htmlFontSize: 16px;
+$fontFamily: $bodyFontFamily;
+$fontSize: 20px;
+$fontWeightLight: $fontWeightLight;
+$fontWeightRegular: $fontWeightNormal;
+$fontWeightMedium: $fontWeightBold;
+$fontWeightBold: $fontWeightBolder;
+
+$h1FontFamily: $headerFontFamily;
+$h1FontWeight: $fontWeightLight;
+$h1FontSize: 6rem;
+$h1LineHeight: 1.1167;
+$h1LetterSpacing: -0.01562em;
+
+$h2FontFamily: $headerFontFamily;
+$h2FontWeight: $fontWeightLight;
+$h2FontSize: 3.75rem;
+$h2LineHeight: 1.2;
+$h2LetterSpacing: -0.00833em;
+
+$h3FontFamily: $headerFontFamily;
+$h3FontWeight: $fontWeightNormal;
+$h3FontSize: 3rem;
+$h3LineHeight: 1.167;
+$h3LetterSpacing: 0em;
+
+$h4FontFamily: $headerFontFamily;
+$h4FontWeight: $fontWeightNormal;
+$h4FontSize: 2.125rem;
+$h4LineHeight: 1.235;
+$h4LetterSpacing: 0.00735em;
+
+$h5FontFamily: $headerFontFamily;
+$h5FontWeight: $fontWeightNormal;
+$h5FontSize: 1.5rem;
+$h5LineHeight: 1.334;
+$h5LetterSpacing: 0em;
+
+$h6FontFamily: $headerFontFamily;
+$h6FontWeight: $fontWeightBold;
+$h6FontSize: 1.25rem;
+$h6LineHeight: 1.6;
+$h6LetterSpacing: 0em;
+
+$subtitle1FontFamily: $bodyFontFamily;
+$subtitle1FontWeight: $fontWeightNormal;
+$subtitle1FontSize: 1rem;
+$subtitle1LineHeight: 1.75;
+$subtitle1LetterSpacing: 0.00938em;
+
+$subtitle2FontFamily: $bodyFontFamily;
+$subtitle2FontWeight: $fontWeightBold;
+$subtitle2FontSize: 0.875rem;
+$subtitle2LineHeight: 1.57;
+$subtitle2LetterSpacing: 0.00714em;
+
+$body1FontFamily: $bodyFontFamily;
+$body1FontWeight: $fontWeightNormal;
+$body1FontSize: 1rem;
+$body1LineHeight: 1.5;
+$body1LetterSpacing: 0.00938em;
+
+$body2FontFamily: $bodyFontFamily;
+$body2FontWeight: $fontWeightNormal;
+$body2FontSize: 1rem;
+$body2LineHeight: 1.43;
+$body2LetterSpacing: 0.01071em;
+
+$buttonFontFamily: $bodyFontFamily;
+$buttonFontWeight: $fontWeightBold;
+$buttonFontSize: 0.875rem;
+$buttonLineHeight: 1.75;
+$buttonLetterSpacing: 0.02857em;
+$buttonTextTransform: uppercase;
+
+$captionFontFamily: $bodyFontFamily;
+$captionFontWeight: $fontWeightNormal;
+$captionFontSize: 0.75rem;
+$captionLineHeight: 1.66;
+$captionLetterSpacing: 0.03333em;
+
+$overlineFontFamily: $bodyFontFamily;
+$overlineFontWeight: $fontWeightNormal;
+$overlineFontSize: 0.75rem;
+$overlineLineHeight: 2.66;
+$overlineLetterSpacing: 0.08333em;
+$overlineTextTransform: uppercase;
+
+:export {
+  headerFontFamily: $headerFontFamily;
+  bodyFontFamily: $bodyFontFamily;
+
+  htmlFontSize: $htmlFontSize;
+  fontFamily: $fontFamily;
+  fontSize: $fontSize;
+  fontWeightLight: $fontWeightLight;
+  fontWeightRegular: $fontWeightRegular;
+  fontWeightMedium: $fontWeightMedium;
+  fontWeightBold: $fontWeightBold;
+
+  h1FontFamily: $h1FontFamily;
+  h1FontWeight: $h1FontWeight;
+  h1FontSize: $h1FontSize;
+  h1LineHeight: $h1LineHeight;
+  h1LetterSpacing: $h1LetterSpacing;
+
+  h2FontFamily: $h2FontFamily;
+  h2FontWeight: $h2FontWeight;
+  h2FontSize: $h2FontSize;
+  h2LineHeight: $h2LineHeight;
+
+  h3FontFamily: $h3FontFamily;
+  h3FontWeight: $h3FontWeight;
+  h3FontSize: $h3FontSize;
+  h3LineHeight: $h3LineHeight;
+
+  h4FontFamily: $h4FontFamily;
+  h4FontWeight: $h4FontWeight;
+  h4FontSize: $h4FontSize;
+  h4LineHeight: $h4LineHeight;
+
+  h5FontFamily: $h5FontFamily;
+  h5FontWeight: $h5FontWeight;
+  h5FontSize: $h5FontSize;
+  h5LineHeight: $h5LineHeight;
+
+  h6FontFamily: $h6FontFamily;
+  h6FontWeight: $h6FontWeight;
+  h6FontSize: $h6FontSize;
+  h6LineHeight: $h6LineHeight;
+
+  subtitle1FontFamily: $subtitle1FontFamily;
+  subtitle1FontWeight: $subtitle1FontWeight;
+  subtitle1FontSize: $subtitle1FontSize;
+  subtitle1LineHeight: $subtitle1LineHeight;
+
+  subtitle2FontFamily: $subtitle2FontFamily;
+  subtitle2FontWeight: $subtitle2FontWeight;
+  subtitle2FontSize: $subtitle2FontSize;
+  subtitle2LineHeight: $subtitle2LineHeight;
+
+  body1FontFamily: $body1FontFamily;
+  body1FontWeight: $body1FontWeight;
+  body1FontSize: $body1FontSize;
+  body1LineHeight: $body1LineHeight;
+  body1LetterSpacing: $body1LetterSpacing;
+
+  body2FontFamily: $body2FontFamily;
+  body2FontWeight: $body2FontWeight;
+  body2FontSize: $body2FontSize;
+  body2LineHeight: $body2LineHeight;
+  body2LetterSpacing: $body2LetterSpacing;
+
+  buttonFontFamily: $buttonFontFamily;
+  buttonFontWeight: $buttonFontWeight;
+  buttonFontSize: $buttonFontSize;
+  buttonLineHeight: $buttonLineHeight;
+  buttonLetterSpacing: $buttonLetterSpacing;
+  buttonTextTransform: $buttonTextTransform;
+
+  captionFontFamily: $captionFontFamily;
+  captionFontWeight: $captionFontWeight;
+  captionFontSize: $captionFontSize;
+  captionLineHeight: $captionLineHeight;
+  captionLetterSpacing: $captionLetterSpacing;
+
+  overlineFontFamily: $overlineFontFamily;
+  overlineFontWeight: $overlineFontWeight;
+  overlineFontSize: $overlineFontSize;
+  overlineLineHeight: $overlineLineHeight;
+  overlineLetterSpacing: $overlineLetterSpacing;
+  overlineTextTransform: $overlineTextTransform;
+}

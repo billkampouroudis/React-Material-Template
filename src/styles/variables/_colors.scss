@@ -1,0 +1,88 @@
+$primaryLight: #7986cb;
+$primaryMain: #3f51b5;
+$primaryDark: #303f9f;
+$primaryContrastText: #fff;
+
+$secondaryLight: #ff4081;
+$secondaryMain: #f50057;
+$secondaryDark: #c51162;
+$secondaryContrastText: #fff;
+
+$errorLight: #e57373;
+$errorMain: #f44336;
+$errorDark: #d32f2f;
+$errorContrastText: #fff;
+
+$warningLight: #ffb74d;
+$warningMain: #ff9800;
+$warningDark: #f57c00;
+$warningContrastText: #fff;
+
+$infoLight: #64b5f6;
+$infoMain: #2196f3;
+$infoDark: #1976d2;
+$infoContrastText: rgba(0, 0, 0, 0.87);
+
+$successLight: #81c784;
+$successMain: #4caf50;
+$successDark: #388e3c;
+$successContrastText: rgba(0, 0, 0, 0.87);
+
+$theme-colors: (
+  primaryLight: $primaryLight,
+  primaryMain: $primaryMain,
+  primaryDark: $primaryDark,
+  primaryContrastText: $primaryContrastText,
+  secondaryLight: $secondaryLight,
+  secondaryMain: $secondaryMain,
+  secondaryDark: $secondaryDark,
+  secondaryContrastText: $secondaryContrastText,
+  errorLight: $errorLight,
+  errorMain: $errorMain,
+  errorDark: $errorDark,
+  errorContrastText: $errorContrastText,
+  warningLight: $warningLight,
+  warningMain: $warningMain,
+  warningDark: $warningDark,
+  warningContrastText: $warningContrastText,
+  infoLight: $infoLight,
+  infoMain: $infoMain,
+  infoDark: $infoDark,
+  infoContrastText: $infoContrastText,
+  successLight: $successLight,
+  successMain: $successMain,
+  successDark: $successDark,
+  successContrastText: $successContrastText
+);
+
+:export {
+  primaryLight: $primaryLight;
+  primaryMain: $primaryMain;
+  primaryDark: $primaryDark;
+  primaryContrastText: $primaryContrastText;
+
+  secondaryLight: $secondaryLight;
+  secondaryMain: $secondaryMain;
+  secondaryDark: $secondaryDark;
+  secondaryContrastText: $secondaryContrastText;
+
+  errorLight: $errorLight;
+  errorMain: $errorMain;
+  errorDark: $errorDark;
+  errorContrastText: $errorContrastText;
+
+  warningLight: $warningLight;
+  warningMain: $warningMain;
+  warningDark: $warningDark;
+  warningContrastText: $warningContrastText;
+
+  infoLight: $infoLight;
+  infoMain: $infoMain;
+  infoDark: $infoDark;
+  infoContrastText: $infoContrastText;
+
+  successLight: $successLight;
+  successMain: $successMain;
+  successDark: $successDark;
+  successContrastText: $successContrastText;
+}
